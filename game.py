@@ -4,7 +4,7 @@ import random
 
 # pygame setup
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode((1000, 600))
 clock = pygame.time.Clock()
 running = True
 ball =  pygame.Rect(screen.get_width()/2-15,screen.get_height()/2-15,30,30)
