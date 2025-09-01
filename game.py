@@ -12,7 +12,8 @@ ball_speed_x = 5*random.choice((1,-1))
 ball_speed_y = 5*random.choice((1,-1))
 player = pygame.Rect(10,screen.get_height()/2-50,20,100)
 computer = pygame.Rect(screen.get_width()-30,screen.get_height()/2-50,20,100)
-
+player_score = 0
+computer_score = 0
 player_speed = 0
 computer_speed = 5
 while running:
