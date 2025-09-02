@@ -1,6 +1,7 @@
 # Example file showing a basic pygame "game loop"
 import pygame
 import random
+import sys
 
 # pygame setup
 pygame.init()
